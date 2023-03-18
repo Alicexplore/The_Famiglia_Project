@@ -12,6 +12,12 @@ I am currently working on the back-end.
 
 <br />
 
+## Languages & tools
+
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite,js,nodejs,html,css,vscode,ai,figma,github,git)](https://skillicons.dev)
+
+<br />
+
 ## Preview
 
 <img width="1440" alt="Capture d’écran 2023-03-18 à 16 57 45" src="https://user-images.githubusercontent.com/102388803/226116876-b53ccde4-2171-4366-98bd-e609412a9ab0.png">
@@ -30,12 +36,6 @@ I am currently working on the back-end.
 
 <br />
 
-## Languages & tools
-
-
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite,js,nodejs,html,css,vscode,ai,figma,github,git)](https://skillicons.dev)
-
-<br />
 
 ## Resources 
 
