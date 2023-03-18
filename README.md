@@ -1,2 +1,2 @@
 # The_Famiglia_Project
-Vegan Restaurant React Application 🥬
+Vegan Restaurant / React Application 🥬
