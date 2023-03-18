@@ -26,7 +26,7 @@ Postscript: This GitHub repository will be completely transformed in order to pr
 ## Languages & tools
 
 
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind,js,html,css,vscode,ai,figma,github,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,js,nodejs,html,css,vscode,ai,figma,github,git)](https://skillicons.dev)
 
 <br />
 
