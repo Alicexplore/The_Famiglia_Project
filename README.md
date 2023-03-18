@@ -33,7 +33,7 @@ I am currently working on the back-end.
 ## Languages & tools
 
 
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind,js,nodejs,html,css,vscode,ai,figma,github,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite,js,nodejs,html,css,vscode,ai,figma,github,git)](https://skillicons.dev)
 
 <br />
 
