@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='mx-auto '>
-        <div className='max-h-[280px] relative'>
-            <div className='absolute w-full h-full text-[#F2F2F2] max-h-[280px] bg-black/50'>
-                <div className='flex flex-row flex-nowrap gap-32'>
+        <div className='max-h-[280px] bg-black relative'>
+            <div className='absolute w-full h-full text-[#F2F2F2] max-h-[280px] bg-black'>
+                <div className='flex flex-row flex-nowrap gap-40'>
                     <div className='flex flex-col'>
                         <div className='px-20 py-6'>
                             <h1 className='font-italiana text-white text-2xl sm:text-4xl md:text-4xl lg:text-5xl'>FAMIGLIA.</h1> 
@@ -21,18 +21,18 @@ const Footer = () => {
                             <button className='-ml-8'><img src="./social/social_b-06.svg" alt="/" width={33}/></button>
                         </div>  
                     </div>
-                    {/* <div className='flex py-10'>    
+                    <div className='flex py-10 px-4 font-work-sans font-base'>    
                         <h1>USEFUL LINKS</h1>
                        
                     </div>
-                    <div className='flex py-10'>    
+                    <div className='flex py-10 px-4'>    
                         <h1>USEFUL LINKS</h1>
                         
                     </div>
-                    <div className='flex py-10'>    
+                    <div className='flex py-10 px-4'>    
                         <h1 className='flex-start'>USEFUL LINKS</h1>
                        
-                    </div> */}
+                    </div>
                 
                 
                     

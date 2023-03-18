@@ -116,7 +116,7 @@ const filterPrice = (price) => {
        
 
  {/* display foods */}
-        <div className='grid grid-cols-1 px-20 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-6 mb-10'>
+        <div className='grid grid-cols-1 px-20 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-6 mb-16'>
              {foods.map((item, index)=> (
                 <div key={index} className=' text-[#F2F2F2] font-worksans hover:scale-105 duration-500'>
                     <img src={item.image} alt={item.name} 
