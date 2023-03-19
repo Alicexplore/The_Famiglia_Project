@@ -4,9 +4,9 @@ Vegan Restaurant / React Application 🥬
 ## About this project
 
 "The Famiglia Project" is a react application for a Vegan Restaurant.
-<br /><br />
+<br />
 I designed the project on Figma and then I developed the front part.
-<br /><br />
+<br />
 I am currently working on the back-end.
 
 <br />
