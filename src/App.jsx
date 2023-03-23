@@ -15,7 +15,12 @@ function App() {
 
   return (
     <div>
-   
+    <Navbar />
+    <Banner/>
+    <About />
+    <Food />
+    <Footer />
+    <Copyright />
       {/* <>
       <Routes>
         <Route path='/login' element={<Login/>}/>  
