@@ -10,20 +10,20 @@ const About = () => {
                     <h1 className='mt-32 px-4 text-7xl sm:text-7xl md:text-8xl lg:text-9xl font-italiana tracking-widest'>FAMIGLIA.</h1>
                     <h1 className='px-4 mb-18 mt-1 text-sm sm:text-sm md:text-base lg:text-xl font-worksans font-light tracking-widest'>OUR PHILOSOPHY ? YOUR PLEASURE FIRST.</h1>
                         <div className='grid grid-cols-2 place-items-center my-16 gap-8'>
-                            <Link to="/Home"><button className='font-worksans p-2 pl-5 pr-5 bg-transparent border-2 border-[#F2F2F2] text-[#F2F2F2] text-base rounded-sm transition-colors duration-700 transform hover:bg-transparent hover:text-[#58731a] hover:border-[#58731a]'>TO HOME</button></Link>
-                            <Link to="/Food"><button className='font-worksans p-2 pl-5 pr-5 bg-[#F2F2F2] border-2 border-[#F2F2F2] text-[#151515] text-base rounded-sm transition-colors duration-700 transform hover:bg-[#58731a] hover:text-gray-100 hover:border-[#58731a]'>TASTE US</button></Link>
+                            <Link to="/Home"><button className='font-worksans p-2 pl-5 pr-5 bg-transparent border-2 border-[#F2F2F2] text-[#F2F2F2] text-base rounded-sm transition-colors duration-700 transform hover:bg-transparent hover:text-[#8fbf1f] hover:border-[#8fbf1f]'>TO HOME</button></Link>
+                            <Link to="/Food"><button className='font-worksans p-2 pl-5 pr-5 bg-[#F2F2F2] border-2 border-[#F2F2F2] text-[#151515] text-base rounded-sm transition-colors duration-700 transform hover:bg-[#709518] hover:text-gray-100 hover:border-[#709518]'>TASTE US</button></Link>
                         </div>
                     {/* <svg xmlns="http://www.w3.org/2000/svg" className="absolute h-16 w-16 animate-bounce text-white -mb-96 mt-40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 10l5 5 5-5" /></svg> */}
                 </div>
-                <img className='w-full max-h-[500px] object-cover' src="./food/roberta-sorge-uOBApnN_K7w-unsplash.jpg" alt="vegetables" />
+                <img className='w-full max-h-[500px] object-cover' src="./food/jodie-morgan-v25z8P-CPB4-unsplash.jpg" alt="vegetables" />
       </div>     
        
     
     <div className='grid grid-cols-1 mt-28 md:grid-cols-2 my-10 mx-24 mb-44'>
       <div>
         <div className='col-span-4'>
-          <img className='' src="./food/sam-hojati-M4hazNIyTsk-unsplash.jpg" alt="vegan food" width={375}/>
+          <img className='' src="./veganfood/leigh-skomal-ZZGo3YcGbaw-unsplash (1).jpg" alt="vegan food" width={375}/>
         </div>
       </div>
       <div className='container mx-auto px-4'>
@@ -44,8 +44,8 @@ const About = () => {
       </div>
     </div> 
 
-   <div className='grid grid-cols-1 place-items-center mb-20 -mt-20'>
-    <h1 className='text-9xl font-extralight font-worksans place-items-center text-[#7d9430]'>+</h1>
+   <div className='grid grid-cols-1 place-items-center mb-20 -mt-24'>
+    <h1 className='text-9xl font-extralight font-worksans place-items-center text-[#F2F2F2]'>+</h1>
    </div>
 
     <div className='grid grid-cols-2 gap-6'>
