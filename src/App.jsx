@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from 'react'
-import {Routes, Route} from 'react-router-dom';
+import {BrowserRouter as router, Routes, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import About from "./components/About"
@@ -15,18 +15,17 @@ function App() {
 
   return (
     <div>
-    <Navbar />
-    <Banner/>
-    <About />
-    <Food />
-    <Footer />
-    <Copyright />
-      {/* <>
-      <Routes>
-        <Route path='/login' element={<Login/>}/>  
-      </Routes>
-      </>   */}
-   
+      <Navbar />
+        <router> 
+          <Routes>
+            <Route path='/' element={<Banner/>}/> 
+            <Route path='/' element={<About/>}/> 
+            <Route path='/' element={<Food/>}/> 
+            <Route path='/login' element={<Login/>}/>  
+          </Routes>
+        </router>
+      <Footer />
+      <Copyright />
     </div>
     
   )

@@ -7,7 +7,7 @@ const [nav, setNav] = useState(false)
   return (
 
     <div className='mx-auto flex justify-between 
-    items-center p-4 bg-transparent relative z-50'>
+    items-center p-4 bg-[transparent] relative z-50'>
         {/* lef side */}
         <div className='flex items-center ml-4'>
             <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
@@ -16,12 +16,6 @@ const [nav, setNav] = useState(false)
         <h1 className='text-2xl sm:text-2xl lg:text-3xl px-8'>
           <span className='font-italiana text-[#F2F2F2]'>FAMIGLIA.</span> 
         </h1>
-         {/* <div className='font-worksans hidden lg:flex items-center bg-[#F2F2F2] 
-        rounded-sm p-1 text-[12px]'>
-            <p className='bg-[#5e6f26] text-[#F2F2F2] rounded-sm 
-            p-2'>Delivery</p>
-            <p className='p-2'>Pickup</p>
-        </div>  */}
       </div>
 
        {/* search input */}
