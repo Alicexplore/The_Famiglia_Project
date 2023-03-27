@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-// import {AIOutlineMenu} from 'react-icons/ai'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 const [nav, setNav] = useState(false)
@@ -14,7 +14,7 @@ const [nav, setNav] = useState(false)
                 <img src="./navbar-w.svg" alt="logomenu" width={20} />
             </div>
         <h1 className='text-2xl sm:text-2xl lg:text-3xl px-8'>
-          <span className='font-italiana text-[#F2F2F2]'>FAMIGLIA.</span> 
+          <Link to="/Home"><span className='font-italiana text-[#F2F2F2]'>FAMIGLIA.</span></Link>
         </h1>
       </div>
 
@@ -37,10 +37,10 @@ const [nav, setNav] = useState(false)
     items-end font-worksans py-2.5 '>
         <img src="./cart.svg" alt="logocart" width={30}/>
     </button>
-    <button className='md:flex
+    <Link to="/Login" ><button className='md:flex
     items-end font-worksans py-2.5 '>
         <img src="./user.svg" alt="logouser" width={28} className='' /> 
-    </button>
+    </button></Link>
     </div>
 
     {/* mobile menu */}
@@ -58,18 +58,14 @@ const [nav, setNav] = useState(false)
         <h2 className='font-italiana text-4xl text-white p-4 '>FAMIGLIA.</h2>  
         <nav>
             <ul className='font-worksans font-thin flex flex-col p-4 text-white'>
-                <li className='text-lg py-4 flex'><img src="./delivery.svg" alt="logomenu" 
-                width={15} className='mr-4'/>Orders</li>
-                <li className='text-lg py-4 flex'><img src="./heart.svg" alt="logomenu" 
-                width={15} className='mr-4'/>Favorites</li>
-                <li className='text-lg py-4 flex'><img src="./wallet.svg" alt="logomenu" 
-                width={15} className='mr-4'/>Wallet</li>
-                <li className='text-lg py-4 flex'><img src="./promotions.svg" alt="logomenu" 
-                width={15} className='mr-4'/>Promotions</li>
+                <li className='text-lg py-4 flex'><img src="./user.svg" alt="logomenu" 
+                width={17} className='mr-4'/>Profile</li>
+                <li className='text-lg py-4 flex'><img src="./cart.svg" alt="logomenu" 
+                width={17} className='mr-4'/>Cart</li>
+                <li className='text-lg py-4 flex'><img src="./heartnavbar.svg" alt="logomenu" 
+                width={17} className='mr-4'/>Favourites</li>
                 <li className='text-lg py-4 flex'><img src="./help.svg" alt="logomenu" 
-                width={15} className='mr-4'/>Help</li>
-                <li className='text-lg py-4 flex'><img src="./friends.svg" alt="logomenu" 
-                width={15} className='mr-4'/>Invite Friends</li>
+                width={17} className='mr-4'/>Help</li>
             </ul>
         </nav> 
 

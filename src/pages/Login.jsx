@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Login = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full -mt-20'>
         <div className='hidden sm:block'>
           <img className='w-full h-screen object-cover' src='./food/jodie-morgan-v25z8P-CPB4-unsplash.jpg' alt='vegan food' width={50}/>
         </div>

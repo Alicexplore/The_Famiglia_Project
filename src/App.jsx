@@ -2,7 +2,7 @@ import React from "react"
 import { useState } from 'react'
 import {BrowserRouter as router, Routes, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar"
-import Banner from "./components/Banner"
+import Home from "./components/Home"
 import About from "./components/About"
 import Food from "./components/Food"
 import Footer from "./components/Footer";
@@ -18,9 +18,9 @@ function App() {
       <Navbar />
         <router> 
           <Routes>
-            <Route path='/' element={<Banner/>}/> 
-            <Route path='/' element={<About/>}/> 
-            <Route path='/' element={<Food/>}/> 
+            <Route path='/Home' element={<Home/>}/> 
+            <Route path='/About' element={<About/>}/> 
+            <Route path='/Food' element={<Food/>}/> 
             <Route path='/login' element={<Login/>}/> 
             <Route path='/cart' element={<Cart/>}/>  
           </Routes>

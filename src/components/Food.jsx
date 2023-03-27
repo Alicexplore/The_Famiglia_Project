@@ -23,43 +23,13 @@ const filterPrice = (price) => {
 };
 
     return (
-        <div className='m-auto px-4 py-12 bg-[#151515]'>
-            {/* <div className='invisible sm:invisible md:visible lg:visible'>
-                <img className='absolute -mt-20 left-0 object-left opacity-60' src="./foodicons/leafleft.svg" alt="" width={400}/>
-            </div> */}
-            {/* <div className='invisible sm:invisible md:visible lg:visible'>
-                <img className='absolute -mt-20 ml-96 opacity-60' src="./foodicons/leafright.svg" alt="" width={400}/>
-            </div> */}
-            
-            {/* <p className='font-bold font-worksans text-sm text-[#7d9430] justify-center text-center tracking-widest '>/ PRE-OPENING</p> */}
-            <div className='grid grid-cols-2 gap-6'>
-                <div className='grid grid-cols-1'>
-                    <h1 className='text-xs md:text-xs lg:text-sm px-20 font-bold font-worksans text-[#7d9430] tracking-widest'>/ OPENING MENU</h1>
-                    <h1 className='text-[#F2F2F2] font-italiana text-6xl md:text-6xl lg:text-8xl px-20 mb-4'>FAMIGLIA<br />CULINARY<br />SELECTIONS.</h1>
-                <div className='px-20 max-w-2xl'>
-                    <p className='text-justify text-[#d5d5d5] font-light leading-7 font-worksans py-10 opacity-90'>
-                    We believe that the food we eat has a direct impact on our health, 
-                    and that's why we choose only the freshest and most nutritious ingredients 
-                    for our dishes. From hearty grain bowls to seasonal salads and freshly 
-                    pressed juices, our menu is designed to provide you with a wholesome 
-                    and satisfying meal that will nourish your body from the inside out.
-                    </p> 
-                    <p className='text-justify text-[#d5d5d5] font-light leading-7 font-worksans py-1 opacity-90 mb-36 -mt-4'>
-                    So whether you're a longtime vegan or just looking to explore the world of plant-based eating, we invite you to come and experience the delicious,
-                    healthy and sustainable cuisine that our restaurant has to offer.
-                    </p> 
-                </div> 
-                </div>
-                <div className='grid grid-cols-1 mx-24 py-4'>
-                    <img className='' src="./veganfood/monika-grabkowska-M1y4TFQ9zVk-unsplash.jpg" alt="" width={435}/>
-                </div>  
-            </div> 
+        <div className='m-auto px-4 py-12 bg-[#151515] -mt-20'>
 
-            <div className=''>
+            <div className='mt-32'>
                 <p className='text-[#F2F2F2] font-italiana text-6xl md:text-6xl lg:text-8xl mb-4 text-center'>VEGAN MENU.</p>
             </div>  
             
-        <div className='mb-20 flex flex-row items-center content-center justify-center'>
+        <div className='mb-24 flex flex-row items-center content-center justify-center'>
             <div className='grid grid-cols-3 md:flex flex-row px-20 lg:flex-row'> 
                 <div className='flex flex-col items-center hover:scale-125 duration-500 opacity-60 hover:opacity-100' >
                     <button onClick={()=> setFoods(data)}><img src="./foodicons/all.svg" alt="" width={35}/></button>
