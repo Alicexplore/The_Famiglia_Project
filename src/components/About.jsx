@@ -6,7 +6,7 @@ const About = () => {
     <div className='m-auto py-12 bg-[#151515] scroll-smooth -mt-20'>
       <div className='-mt-12'>
                 <div className='absolute w-full h-full text-[#F2F2F2] max-h-[500px] 
-                 bg-black/40 flex flex-col items-center justify-center place-items-center'>
+                 bg-black/50 flex flex-col items-center justify-center place-items-center'>
                     <h1 className='mt-32 px-4 text-7xl sm:text-7xl md:text-8xl lg:text-9xl font-italiana tracking-widest'>FAMIGLIA.</h1>
                     <h1 className='px-4 mb-18 mt-1 text-sm sm:text-sm md:text-base lg:text-xl font-worksans font-light tracking-widest'>OUR PRIORITY ? YOUR HEALTH FIRST.</h1>
                         <div className='grid grid-cols-2 place-items-center my-16 gap-8'>
@@ -16,7 +16,7 @@ const About = () => {
                     {/* <svg xmlns="http://www.w3.org/2000/svg" className="absolute h-16 w-16 animate-bounce text-white -mb-96 mt-40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 10l5 5 5-5" /></svg> */}
                 </div>
-                <img className='w-full max-h-[500px] object-cover' src="./food/allec-gomes-44Ffu_uY0-o-unsplash.jpg" alt="vegetables" />
+                <img className='w-full max-h-[500px] object-cover' src="./veganfood/leigh-skomal-ZZGo3YcGbaw-unsplash (1).jpg" alt="vegetables" />
       </div>     
        
     
