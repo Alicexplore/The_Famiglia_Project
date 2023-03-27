@@ -28,10 +28,9 @@ const filterPrice = (price) => {
 
             <div className='-mt-12'>
                 <div className='absolute w-full h-full text-[#F2F2F2] max-h-[500px] 
-                 bg-black/50 flex flex-col items-center justify-center place-items-center'>
+                 bg-black/70 flex flex-col items-center justify-center place-items-center'>
                     <h1 className='mt-32 px-4 text-7xl sm:text-7xl md:text-8xl lg:text-9xl font-italiana tracking-widest'>VEGAN MENU</h1>
                     <h1 className='px-4 mb-18 mt-1 text-sm sm:text-sm md:text-base lg:text-xl font-worksans font-light tracking-widest'>ARE YOU READY TO TASTE HAPPINESS ?</h1>
-                    {/* <h1 className='px-4 mb-18 mt-1 text-sm sm:text-sm md:text-base lg:text-xl font-worksans font-light tracking-widest'>OUR PHILOSOPHY ? YOUR PLEASURE FIRST.</h1> */}
                     <div className='grid grid-cols-2 place-items-center my-16 gap-8'>
                             <Link to="/Home"><button className='font-worksans p-2 pl-5 pr-5 bg-transparent border-2 border-[#F2F2F2] text-[#F2F2F2] text-base rounded-sm transition-colors duration-700 transform hover:bg-transparent hover:text-[#98cb22] hover:border-[#98cb22]'>TO HOME</button></Link>
                             <Link to="/About"><button className='font-worksans p-2 pl-5 pr-5 bg-[#F2F2F2] border-2 border-[#F2F2F2] text-[#151515] text-base rounded-sm transition-colors duration-700 transform hover:bg-[#6a8e16] hover:text-gray-100 hover:border-[#6a8e16]'>ABOUT US</button></Link>
@@ -39,8 +38,10 @@ const filterPrice = (price) => {
                 </div>
                 <img className='w-full max-h-[500px] object-cover' src="./veganfood/monika-grabkowska-i14VzlCp-Eo-unsplash.jpg" alt="vegetables" />
             </div> 
-            
-        <div className='mb-10 mt-40 flex flex-row items-center content-center justify-center'>
+            <div className='grid grid-cols-1 place-items-center'>
+                <h1 className='text-[#F2F2F2] mt-32 mb-4 px-4 text-7xl sm:text-7xl md:text-8xl lg:text-8xl font-italiana'>THIS WEEK.</h1>  
+            </div> 
+        <div className='mb-10 mt-18 flex flex-row items-center content-center justify-center'>
             <div className='grid grid-cols-3 md:flex flex-row px-20 lg:flex-row'> 
                 <div className='flex flex-col items-center hover:scale-125 duration-500 opacity-60 hover:opacity-100' >
                     <button onClick={()=> setFoods(data)}><img src="./foodicons/all.svg" alt="" width={50}/></button>
