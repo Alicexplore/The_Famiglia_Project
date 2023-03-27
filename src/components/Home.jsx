@@ -7,7 +7,7 @@ const Hero = () => {
             <div className='max-h-[800px] relative'>
                 {/* overlay */}
                 <div className='absolute w-full h-full text-[#F2F2F2] max-h-[800px] 
-                 bg-black/30 flex flex-col items-center justify-center place-items-center'>
+                 bg-black/10 flex flex-col items-center justify-center place-items-center'>
                     <h1 className='px-4 mb-6 text-1xl sm:text-1xl md:text-2xl lg:text-3xl font-worksans tracking-widest mt-20'>DINNER AT</h1>
                     <h1 className='px-4 text-7xl sm:text-7xl md:text-8xl lg:text-9xl font-italiana tracking-widest'>FAMIGLIA.</h1>
                     <h1 className='px-4 mb-18 mt-1 text-sm sm:text-sm md:text-base lg:text-xl font-worksans font-light tracking-widest'>WE MAKE VEGAN FOOD NOT WAR</h1>
