@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from 'react'
-import {BrowserRouter as router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import About from "./components/About"
@@ -25,7 +25,7 @@ function App() {
             <Route path='/cart' element={<Cart/>}/>  
           </Routes>
         </router>
-      <Footer />
+      {/* <Footer /> */}
       <Copyright />
     </div>
     
