@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
-        <div className='mx-auto -mt-20 scroll-smooth'>
+        <div className='mx-auto -mt-20'>
             <div className='max-h-[800px] relative'>
                 <div className='absolute w-full h-full text-[#F2F2F2] max-h-[800px] 
                  bg-black/10 flex flex-col items-center justify-center place-items-center'>

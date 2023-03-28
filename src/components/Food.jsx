@@ -15,7 +15,7 @@ const [foods, setFoods] = useState(data)
 
     return (
         <div className='m-auto bg-[#151515] -mt-20'>
-            <div className='-mt-12'>
+            {/* <div className='-mt-12'>
                 <div className='absolute w-full h-full text-[#F2F2F2] max-h-[500px] 
                  bg-black/70 flex flex-col items-center justify-center place-items-center'>
                     <h1 className='mt-32 px-4 text-7xl sm:text-7xl md:text-8xl lg:text-9xl font-italiana tracking-widest'>VEGAN MENU</h1>
@@ -26,9 +26,9 @@ const [foods, setFoods] = useState(data)
                     </div>
                 </div>
                 <img className='w-full max-h-[500px] object-cover' src="./veganfood/monika-grabkowska-i14VzlCp-Eo-unsplash.jpg" alt="vegetables" />
-            </div> 
+            </div>  */}
             <div className='grid grid-cols-1 place-items-center'>
-                <h1 className='text-[#F2F2F2] mt-32 mb-4 px-4 text-7xl sm:text-7xl md:text-8xl lg:text-8xl font-italiana'>THIS WEEK.</h1>  
+                <h1 className='text-[#F2F2F2] mt-32 mb-4 px-4 text-7xl sm:text-7xl md:text-8xl lg:text-8xl font-italiana'>VEGAN MENU.</h1>  
             </div> 
             <div className='mb-10 mt-18 flex flex-row items-center content-center justify-center'>
                 <div className='grid grid-cols-3 md:flex flex-row px-20 lg:flex-row'> 
@@ -59,10 +59,10 @@ const [foods, setFoods] = useState(data)
                 </div>
             </div>  
             
-            <div className='grid grid-cols-1 px-20 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-6 mb-16 mt-20'>
+            <div className='grid grid-cols-1 px-20 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-6  mt-20'>
                 {foods.map((item, index)=> (
                 <div className=' text-[#F2F2F2] font-worksans hover:scale-105 duration-500' key={index}>
-                    <img className='w-full h-[250px] object-cover rounded-t-xl' src={item.image} alt={item.name} /> 
+                    <img className='w-full h-[250px] object-cover rounded-t-xl opacity-75 hover:opacity-100 hover:scale-105 duration-500 ' src={item.image} alt={item.name} /> 
                     <div className='flex justify-between py-4'>
                         <div>
                             <div className='flex'>

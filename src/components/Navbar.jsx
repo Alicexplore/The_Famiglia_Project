@@ -60,6 +60,12 @@ const [nav, setNav] = useState(false)
         <nav>
             <ul className='font-worksans font-thin flex flex-col p-4 text-white'>
                 <li className='text-lg py-4 flex'><img src="./user.svg" alt="logomenu" 
+                width={17} className='mr-4'/>Home</li>
+                <li className='text-lg py-4 flex'><img src="./user.svg" alt="logomenu" 
+                width={17} className='mr-4'/>About us</li>
+                <li className='text-lg py-4 flex'><img src="./user.svg" alt="logomenu" 
+                width={17} className='mr-4'/>Menu</li>
+                <li className='text-lg py-4 flex'><img src="./user.svg" alt="logomenu" 
                 width={17} className='mr-4'/>Profile</li>
                 <li className='text-lg py-4 flex'><img src="./cart.svg" alt="logomenu" 
                 width={17} className='mr-4'/>Cart</li>
