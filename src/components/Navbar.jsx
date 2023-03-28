@@ -7,7 +7,7 @@ const [nav, setNav] = useState(false)
   return (
 
     <div className='mx-auto flex justify-between 
-    items-center p-4 bg-[transparent] relative z-50'>
+    items-center p-4 bg-gradient-to-r from-black via-[transparent] to-black z-50 sticky top-0 h-[70px]'>
         {/* lef side */}
         <div className='flex items-center ml-4'>
             <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
@@ -26,22 +26,23 @@ const [nav, setNav] = useState(false)
                focus:outline-none font-worksans text-[12px]' type="text" 
                placeholder='SEARCH FOR THE PERFECT MEAL'/>      
        </div>       */}
-         {/* cart button */}
+      
     
     <div className='flex justify-between -space-x-6'>
     <button className='md:flex
     items-end font-worksans py-2.5 '>
-        <img src="./heartnavbar.svg" alt="logocart" width={27}/>
+        <img src="./heartnavbar.svg" alt="logocart" width={24}/>
     </button>
     <button className='md:flex
     items-end font-worksans py-2.5 '>
-        <img src="./cart.svg" alt="logocart" width={30}/>
+        <img src="./cart.svg" alt="logocart" width={27}/>
     </button>
     <Link to="/Login" ><button className='md:flex
     items-end font-worksans py-2.5 '>
-        <img src="./user.svg" alt="logouser" width={28} className='' /> 
+        <img src="./user.svg" alt="logouser" width={26} className='' /> 
     </button></Link>
     </div>
+   
 
     {/* mobile menu */}
     {/* overlay */}

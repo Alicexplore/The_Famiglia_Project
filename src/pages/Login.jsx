@@ -22,7 +22,7 @@ export const Login = () => {
               {/* <label className='text-[#F2F2F2] opacity-70'>Password</label> */}
               <input className='border p-2 text-black focus:outline-none focus:border-black focus:ring-1 focus:ring-white' type="password" placeholder='Password'/>
             </div>
-            <button className='border w-full my-5 py-2 bg-[#3a4b11] text-white font-medium border-none hover:bg-[#353535]'>SIGN IN</button>
+            <button className='border w-full my-5 py-2 bg-[#5a751c] text-white font-medium border-none hover:bg-[#31400f]'>SIGN IN</button>
             <div className='flex justify-between'>
               <p className='flex items-center accent-black text-[#F2F2F2] opacity-70'><input className='mr-2' type="checkbox"/> Remember Me</p>
               {/* <a href='/'>Create an account</a> */}
