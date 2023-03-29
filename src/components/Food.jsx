@@ -33,27 +33,27 @@ const [foods, setFoods] = useState(data)
             <div className='mb-10 mt-18 flex flex-row items-center content-center justify-center'>
                 <div className='grid grid-cols-3 md:flex flex-row px-20 lg:flex-row'> 
                     <div className='flex flex-col items-center hover:scale-125 duration-500 opacity-60 hover:opacity-100' >
-                        <button onClick={()=> setFoods(data)}><img src="./foodicons/all.svg" alt="" width={50}/></button>
+                        <button onClick={()=> setFoods(data)}><img src="./foodicons/all.svg" alt="" width={40}/></button>
                         <button onClick={()=> setFoods(data)} className='text-sm font-extralight tracking-wide text-[#F2F2F2] font-worksans'>All</button>
                     </div>
                     <div className='flex flex-col items-center -ml-2 hover:scale-125 duration-500 opacity-60 hover:opacity-100'>
-                        <button onClick={()=> filterType('Vegs')}><img src="./foodicons/vegs.svg" alt="" width={50}/></button>
+                        <button onClick={()=> filterType('Vegs')}><img src="./foodicons/vegs.svg" alt="" width={40}/></button>
                         <button onClick={()=> filterType('Vegs')} className='text-sm font-extralight tracking-wide text-[#F2F2F2] font-worksans'>Vegs</button>
                     </div>
                     <div className='flex flex-col items-center -ml-2 hover:scale-125 duration-500 opacity-60 hover:opacity-100'>
-                        <button onClick={()=> filterType('Bowls')}><img src="./foodicons/entries.svg" alt="" width={50}/></button>
+                        <button onClick={()=> filterType('Bowls')}><img src="./foodicons/entries.svg" alt="" width={40}/></button>
                         <button onClick={()=> filterType('Bowls')} className='text-sm font-extralight tracking-wide text-[#F2F2F2] font-worksans'>Bowls</button>
                     </div>
                     <div className='flex flex-col items-center -ml-2 hover:scale-125 duration-500 opacity-60 hover:opacity-100'>
-                        <button onClick={()=> filterType('Dish')}><img src="./foodicons/plat.svg" alt="" width={50}/></button>
+                        <button onClick={()=> filterType('Dish')}><img src="./foodicons/plat.svg" alt="" width={40}/></button>
                         <button onClick={()=> filterType('Dish')} className='text-sm font-extralight tracking-wide text-[#F2F2F2] font-worksans'>Dish</button>
                     </div>
                     <div className='flex flex-col items-center -ml-2 hover:scale-125 duration-500 opacity-60 hover:opacity-100'>
-                        <button onClick={()=> filterType('Fruits')}><img src="./foodicons/apple.svg" alt="" width={50}/></button>
+                        <button onClick={()=> filterType('Fruits')}><img src="./foodicons/apple.svg" alt="" width={40}/></button>
                         <button onClick={()=> filterType('Fruits')} className='text-sm font-extralight tracking-wide text-[#F2F2F2] font-worksans'>Fruits</button>
                     </div>
                     <div className='flex flex-col items-center -ml-2 hover:scale-125 duration-500 opacity-60 hover:opacity-100'>
-                        <button onClick={()=> filterType('Drinks')}><img src="./foodicons/drinks.svg" alt="" width={50}/></button>
+                        <button onClick={()=> filterType('Drinks')}><img src="./foodicons/drinks.svg" alt="" width={40}/></button>
                         <button onClick={()=> filterType('Drinks')} className='text-sm font-extralight tracking-wide text-[#F2F2F2] font-worksans'>Drinks</button>
                     </div>
                 </div>

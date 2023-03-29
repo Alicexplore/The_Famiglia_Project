@@ -6,7 +6,7 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Food from "./components/Food"
 import Footer from "./components/Footer";
-import Copyright from "./components/Copyright";
+// import Copyright from "./components/Copyright";
 import {Login} from './pages/Login';
 import {Cart} from './pages/Cart';
 
@@ -25,8 +25,8 @@ function App() {
             <Route path='/cart' element={<Cart/>}/>  
           </Routes>
         </router>
-      {/* <Footer /> */}
-      <Copyright />
+      <Footer />
+      {/* <Copyright /> */}
     </div>
     
   )
