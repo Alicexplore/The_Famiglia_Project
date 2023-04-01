@@ -59,7 +59,7 @@ const [foods, setFoods] = useState(data)
                 </div>
             </div>  
             
-            <div className='grid grid-cols-1 px-20 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-6  mt-20'>
+            <div className='grid grid-cols-1 px-20 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-6 mt-20'>
                 {foods.map((item, index)=> (
                 <div className=' text-[#F2F2F2] font-worksans hover:scale-105 duration-500' key={index}>
                     <img className='w-full h-[250px] object-cover rounded-t-xl opacity-75 hover:opacity-100 hover:scale-105 duration-500 ' src={item.image} alt={item.name} /> 
