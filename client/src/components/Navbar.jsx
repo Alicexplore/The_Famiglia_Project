@@ -7,7 +7,7 @@ const [nav, setNav] = useState(false)
   return (
 
     <div className='mx-auto flex justify-between 
-    items-center p-4 bg-gradient-to-r from-black via-[transparent] to-black z-50 sticky top-0 h-[60px]'>
+    items-center p-4 bg-transparent z-50 sticky top-0 h-[60px]'>
         {/* lef side */}
         <div className='flex items-center ml-4'>
             <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
