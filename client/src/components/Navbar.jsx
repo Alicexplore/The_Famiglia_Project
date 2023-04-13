@@ -14,7 +14,7 @@ const [nav, setNav] = useState(false)
                 <img src="./navbar-w.svg" alt="logomenu" width={20} />
             </div>
         <h1 className='text-2xl sm:text-2xl lg:text-3xl px-8'>
-          <Link to="/Home"><span className='font-italiana text-[#F2F2F2]'>FAMIGLIA.</span></Link>
+          <Link to="/"><span className='font-italiana text-[#F2F2F2]'>FAMIGLIA.</span></Link>
         </h1>
       </div>
 

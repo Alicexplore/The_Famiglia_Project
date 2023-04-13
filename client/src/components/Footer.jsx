@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
         <div className='bg-[#151515] text-white'>
-            <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#5a751c]/50 py-7'>
+            {/* <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#5a751c]/50 py-7'>
                 <h1 className='font-italiana font-light tracking-widest lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal md:w-2/5'>
                 <span className='text-[#5a751c]'>FOLLOW</span> THE MOUVEMENT</h1>
                 <div className='border-b border-[#5a751c] py-2'>
@@ -12,7 +12,7 @@ const Footer = () => {
                     <button className='bg-[#5a751c] hover:bg-[#455a15] duration-300 px-5 py-2.5 font-bold rounded-sm
                     text-white md:w-auto w-full'>Request code</button>
                 </div>
-            </div>
+            </div> */}
 
             <div className='grid grid-cols-1 place-items-center sm:grid-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16'>
                 <ul>
