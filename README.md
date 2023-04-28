@@ -7,8 +7,6 @@ Vegan Restaurant / React Application 🥬
 <br />
 I designed the project on Figma and then I developed the front part.
 <br />
-I am currently working on the back-end.
-<br />
 
 ## Languages & tools
 
